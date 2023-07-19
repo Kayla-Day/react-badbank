@@ -7,11 +7,12 @@ export default function Register() {
   const [password, setPassword] = useState("");
   const [register, setRegister] = useState(false);
   //TO DO - change url https://nodejs-mdb-auth-0aa56ea14f9c.herokuapp.com/register
+  //https://nodejs-mongodb-auth.herokuapp.com/register
   const handleSubmit = (e) => {
     // set configurations
     const configuration = {
       method: "post",
-      url: "https://nodejs-mongodb-auth.herokuapp.com/register",
+      url: "https://nodejs-mdb-auth-0aa56ea14f9c.herokuapp.com/register",
       data: {
         email,
         password,
