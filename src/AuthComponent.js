@@ -16,7 +16,7 @@ export default function AuthComponent() {
     // set configurations for the API call here
     const configuration = {
       method: "get",
-      url: "https://nodejs-mongodb-auth-app.herokuapp.com/auth-endpoint",
+      url: "https://nodejs-mdb-auth-0aa56ea14f9c.herokuapp.com/auth-endpoint",
       headers: {
         Authorization: `Bearer ${token}`,
       },
